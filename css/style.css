@@ -1,1 +1,53 @@
-/* Denna fil skall innehålla din CSS kod */
+body {
+display: grid;
+height: 100%;
+width: 100%;
+padding: 0px;
+grid-template-areas: 
+'header header header'
+'nav nav nav'
+'sec1 sec1 aside';
+}
+
+
+header {
+grid-area: header;
+text-align: center;
+background-color:  #e67e22;
+padding: 25px;
+}
+
+#omoss {
+grid-area: sec1;
+background-color:#e67e22;
+padding: 20px;
+}
+
+#rubrik {
+grid-area: aside;
+background-color: #d15400;
+padding: 20px;
+}
+
+#recept {
+    padding: 10px;
+    background-color: #e74d3c;
+    color: white;
+}
+
+#nav2 {
+    padding: 10px;
+    background-color: #e74d3c;
+    color: white;
+}
+
+#nav3 {
+    padding: 10px;
+    background-color: #e74d3c;
+    color: white;
+}
+
+#resturanger {
+    text-align: center;
+    background-color: #e67e22;
+}
