@@ -52,7 +52,8 @@ padding: 20px;
     background-color: #e67e22;
 }
 
-#cardwrapper {display: flex;
+#cardwrapper {
+display: flex;
 flex-wrap: wrap;
 gap: 15px;
 margin: auto;
@@ -62,7 +63,40 @@ justify-content: center;
 section {border: 2px solid #e67e22;
 width: 200px;
 height: 200px;
+border-radius: 25px;
+position: relative;
+}
 
+article {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cardwrapper section p {
+font-size: 2em;
+text-shadow: 0px 0px 7px white,-2px -2px 3px yellow;
+}
+
+#cardwrapper section div {
+display: block;
+height: 100%;
+width: 100%;
+position: absolute;
+top: 0px;
+left: 0px;
+border-radius: 25px;
+}
+
+section:hover div {
+background-color: #e67e22;
+
+}
+
+section:hover p { 
+display: none;
 }
 
 #s1 {
