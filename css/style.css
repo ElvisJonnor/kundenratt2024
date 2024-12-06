@@ -51,3 +51,46 @@ padding: 20px;
     text-align: center;
     background-color: #e67e22;
 }
+
+#cardwrapper {display: flex;
+flex-wrap: wrap;
+gap: 15px;
+margin: auto;
+justify-content: center;
+}
+
+section {border: 2px solid #e67e22;
+width: 200px;
+height: 200px;
+
+}
+
+#s1 {
+background-image: url('../img/lasange.jpg');
+background-size: cover;
+}
+
+#s2 {
+background-image: url('../img/meatballs.jpg');
+background-size: cover;
+}
+
+#s3 {
+background-image: url('../img/pancake.jpg');
+background-size: cover;
+}
+
+#s4 {
+background-image: url('../img/Pizza.jpg');
+background-size: cover;
+}
+
+#s5 {
+background-image: url('../img/spaghetti.jpg');
+background-size: cover;
+}
+
+#s6 {
+background-image: url('../img/tacos.jpg');
+background-size: cover;
+}
