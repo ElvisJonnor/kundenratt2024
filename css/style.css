@@ -60,10 +60,8 @@ margin: auto;
 justify-content: center;
 }
 
-section {border: 2px solid #e67e22;
-width: 200px;
-height: 200px;
-border-radius: 25px;
+section {border: 5px solid #e67e22;
+border-radius: 0px;
 position: relative;
 }
 
